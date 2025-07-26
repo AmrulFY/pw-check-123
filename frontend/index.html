@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Strength Checker</h1>
+        <div class="input-group">
+            <label for="password">Enter Password:</label>
+            <input type="password" id="password" placeholder="Type your password here">
+        </div>
+        <button type="button" onclick="checkPasswordStrength()">Check Strength</button>
+        <div class="strength-meter">
+            <div class="strength-meter-fill" id="strengthMeter"></div>
+        </div>
+        <div class="result" id="result"></div>
+        <div class="tips" id="tips"></div>
+    </div>
+    <footer class="footer">
+        <p>Created by Amrul Fadhil Yofan</p>
+        <p>Contact: <a class="email-link" href="mailto:amrul.yofan@gmail.com">amrul.yofan@gmail.com</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

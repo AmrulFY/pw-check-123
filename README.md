@@ -1,7 +1,7 @@
 # Password Strength Checker
 A simple web app to evaluate password strength using a pre-trained machine learning model.
 
-## Live Front End (Hosted on Vercel)
+## Live Frontend (Hosted on Vercel)
 Open web via https://pw-check-123.vercel.app/
 
 Note: This site only handles the user interface. All backend logic (including model predictions) runs locally.
